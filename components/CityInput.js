@@ -1,5 +1,5 @@
 import { View, TextInput } from 'react-native';
-import styles from './styles'
+import styles from '../screens/HomeScreen/styles'
 
 const CityInput = ({value, onChangeText}) => {
     return (

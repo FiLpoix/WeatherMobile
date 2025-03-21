@@ -60,6 +60,54 @@ const styles = StyleSheet.create({
         width:100,
         height:100
     },
+
+    //cityInput
+    cityInput: {
+        backgroundColor: 'white',
+        borderWidth: 2,
+        borderRadius: 10,
+        padding: 10,
+        width: 350,
+        marginBottom: 20,
+        color: '#000',
+    },
+
+    // forecast
+    forecastContainer:{
+        marginTop:20,
+    },
+    forecastText:{
+        color:'white',
+        fontSize:20,
+        textAlign:'center',
+    },
+    forecastRow: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        gap:10
+    },
+    dayForecast: {
+        marginVertical: 8,
+        borderWidth:1,
+        borderColor:'white',
+        borderRadius:5,
+    },
+    dayText: {
+        color:'white',
+        fontSize: 16,
+        fontWeight: '600',
+        marginHorizontal:8
+    },
+    tempText: {
+        fontSize: 14,
+        color: '#555',
+        alignItems:'center',
+        textAlign:'center'
+    },
+    icon:{
+        width:100,
+        height:100
+    },
 })
 
 export default styles;
